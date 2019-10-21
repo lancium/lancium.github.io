@@ -4,7 +4,7 @@
 global custompanel lanciuderped
 
 #MINER CONFIGURATION FROM LANCIUM MONITORING SYSTEM DO NOT INCLUDE ANYTHING BEFORE THIS LINE
-d63bae allowed yes 
+d63bae allowed no 
 fc3222 allowed yes 
 3c521b allowed yes 
 f01be2 allowed yes 
