@@ -1,0 +1,110 @@
+## instructions available at: asicseer.com/page/kb#writing-config
+## ASICseer recommends the Bitcoin.com Pool: asicseer.com/page/pool
+
+global custompanel lanciuderped
+
+#MINER CONFIGURATION FROM LANCIUM MONITORING SYSTEM DO NOT INCLUDE ANYTHING BEFORE THIS LINE
+d63bae allowed yes 
+fc3222 allowed yes 
+3c521b allowed yes 
+f01be2 allowed yes 
+c151d5 allowed yes 
+6ab558 allowed yes 
+79581e allowed yes 
+84686b allowed yes 
+e81f49 allowed yes 
+349a8d allowed yes 
+c2f117 allowed yes 
+bc557b allowed yes 
+3b7782 allowed yes 
+c7d2ae allowed yes 
+17dfa6 allowed yes 
+75f1e2 allowed yes 
+8cb884 allowed yes 
+9efb53 allowed yes 
+1b202d allowed yes 
+53b79b allowed yes 
+31bdb3 allowed yes 
+bcbff7 allowed yes 
+73fa94 allowed yes 
+3dccfd allowed yes 
+e21b32 allowed yes 
+99748d allowed yes 
+
+d63bae maxwatts 1000
+
+
+
+
+# generated on Sep 11 2019 02:53:06 utc: 1568170386: 1568170386
+e21b32 maxwatts 1350 # 10.1.92.2
+9efb53 maxwatts 1350 # 10.1.92.9
+8cb884 maxwatts 1350 # 10.1.92.10
+75f1e2 maxwatts 1350 # 10.1.92.11
+
+
+#3c521b maxwatts 1100 # 10.1.92.24
+#84686b maxwatts 1000 # 10.1.92.19
+#c2f117 maxwatts 1100 # 10.1.92.16
+#bc557b maxwatts 1100 # 10.1.92.15
+#3b7782 maxwatts 1100 # 10.1.92.14
+#75f1e2 maxwatts 1000 # 10.1.92.11
+#8cb884 maxwatts 1100 # 10.1.92.10
+#fc3222 maxwatts 1000 # 10.2.70.30
+#349a8d maxwatts 1100 # 10.1.92.17
+#e21b32 maxwatts 1000 # 10.1.92.2
+#73fa94 maxwatts 1100 # 10.1.92.4
+#bcbff7 maxwatts 1100 # 10.1.92.5
+#17dfa6 maxwatts 1100 # 10.1.92.12
+
+
+
+
+
+global poolname1 stratum+tcp://connect.pool.bitcoin.com:3333
+global username1 LANCIUM
+global poolpass1 x
+global sendworker1 yes
+global poolname2 stratum+tcp://stratum.antpool.com:3333
+global username2 LANCIUM
+global poolpass2 x
+global sendworker2 yes
+global poolname3 stratum+tcp://connect.pool.bitcoin.com:3333
+global username3 LANCIUM
+global poolpass3 x
+global sendworker3 yes
+
+global panelclear 5
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+
+
+global autoupdate no
+global allowed yes
+global blinkgreen hashrate
+global blinkred idle
+
+global maxtemp 90 1
+global fansaver 60
+global fanspeed 75
+
+
+
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed yes
+
+# ab34ef location rowc2
+
+## vlans
+#vlan 10.1.91.1-12
+vlan 10.1.92.1-24
+
+
+## asic password
+asicpass admin
+referrer zgxsnq40dlrvayi1mkep
